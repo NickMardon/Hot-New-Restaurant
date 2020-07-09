@@ -1,0 +1,42 @@
+/* /// home FOOTER/// */
+
+footer {
+    /* text-align: center;
+    color: #c7c5cf; */
+    background-color:orange;
+    position: fixed;
+    bottom: 0;
+}
+ /* #sticky-footer {
+     flex-shrink: none;
+ } */
+
+.footerText {
+    background-color: salmon;
+    text-align: center;
+    color: whitesmoke;
+}
+
+ /* ///reserve FOOTER/// */
+/* 
+footer {
+    text-align: center;
+    color: #c7c5cf;
+    background-color:black;
+}
+ #sticky-footer {
+     flex-shrink: none;
+ }
+
+/* ///tables FOOTER/// */
+
+/* footer {
+    text-align: center;
+    color: #c7c5cf;
+    background-color:black;
+}
+ #sticky-footer {
+     flex-shrink: none;
+ } */ 
+
+

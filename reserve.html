@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hot New Restuarant</title>
-    <!--Bootstrap CSS-->
+    <title>Make Reservations</title>
     <link rel="stylesheet"
     href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <!--Font Awesome-->
   <link rel="stylesheet"
     href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!--Custom CSS-->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark" >
-        <a href="#" class="navbar-brand">Hot New Restuarant</a>
+        <a href="#" class="navbar-brand">Make a Reservation</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,34 +33,25 @@
         </div>
     </nav>
     
-  <footer>
-      <div class="footerText">
-        <h6>This is the footer</h6>
-      </div>
-  </footer>
-    <script>
-
-
-      // $.get("/api/tables/" + input field id, function(data) {
-      //   console.log(data);
-      //   if (data) {
-      //     $("#stats").show();
-      //     $("#name").text(data.name);
-      //     $("#role").text(data.role);
-      //     $("#age").text(data.age);
-      //     $("#force-points").text(data.forcePoints);
-      //   }
-      //   else {
-      //     $("#name").text("The force is not strong with this one. Your character was not found.");
-      //     $("#stats").hide();
-      //   }
-      // });
-   
-
-    </script>
-<!--Jquery CDN-->
-<script src="https://code.jquery.com/jquery.js"></script>
-<!--Bootstrap Jquery and JS-->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <footer class="page-footer  grey darken-4">
+        <div class="container">
+          <div class="row">
+            <div class="col l5 s12">
+              <h5 class="white-text">Hot New Restuarant</h5>
+            </div>
+            <div class="col l5 offset-14 s12">
+              <h6 class="white-text">Built With:</h6>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="/api/tables" target="_blank">API Table Link</i></a></li>
+                <li><a class="grey-text text-lighten-3" href="/api/waitlist" target="_blank">API Wait Link</a></li>
+            </ul>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+            © Copyright 2020 Hot New Restuarant
+            </div>
+          </div>
+    </footer>
+        
 </body>
 </html>
