@@ -5,19 +5,17 @@ const express =require("express");
 const path = require("path");
 const router = express.Router();
 
-// JSON Arrays
-//==============================================================
 const reservationArr = [
   {
-    name:"brent",
-    phone:'32',
+    name:"Brent",
+    phone:'323-507-2244',
     email:"brent@billybrent.com"
 }
 ];
 const waitingArr = [
   {
-    name:"brenda",
-    phone:'24',
+    name:"Brenda",
+    phone:'242-555-7890',
     email:"brenda@billybrent.com"
 }
 ];
