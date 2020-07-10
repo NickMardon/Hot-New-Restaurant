@@ -1,4 +1,4 @@
-$("#reserveForm").submit(function(e){
+$("#reserveBtn").on("click",function(e){
     e.preventDefault();
     const resData = {
         name: $("#name").val(),
@@ -9,3 +9,4 @@ $("#reserveForm").submit(function(e){
        window.location.href = '/tables';
     })
 })
+
