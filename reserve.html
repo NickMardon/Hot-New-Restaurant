@@ -15,25 +15,25 @@
 </head>
 <body>
   <!--Navbar-->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark" >
-        <a href="#" class="navbar-brand">Make a Reservation</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarMenu">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a href="/" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-                <a href="/reserve" class="nav-link">Make a Reservation</a>
-            </li>
-            <li class="nav-item">
-                <a href="/tables" class="nav-link">View Tables</a>
-            </li>
-        </ul>
-        </div>
-    </nav>
+  <nav class="navbar navbar-expand-md navbar-dark" >
+    <a href="#" class="navbar-brand">Nick's Hot New Restuarant</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a href="/" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="/reserve" class="nav-link">Make a Reservation</a>
+        </li>
+        <li class="nav-item">
+            <a href="/tables" class="nav-link">View Tables</a>
+        </li>
+    </ul>
+    </div>
+</nav>
     <!--Form-->
     <form class="container reserveForm">
       <div class="form-group">
@@ -52,23 +52,15 @@
     </form>
     <!--Footer-->
     <footer class="page-footer  grey darken-4">
-        <div class="container">
-          <div class="row">
-            <div class="col l5 s12">
-              <h5 class="white-text">Hot New Restuarant</h5>
-            </div>
-            <div class="col l5 offset-14 s12">
-              <h6 class="white-text">Built With:</h6>
-              <ul>
-                <li><a class="grey-text text-lighten-3" href="/api/tables" target="_blank">API Table Link</i></a></li>
-                <li><a class="grey-text text-lighten-3" href="/api/waitlist" target="_blank">API Wait Link</a></li>
-            </ul>
-        </div>
-        <div class="footer-copyright">
-            <div class="container">
-            © Copyright 2020 Hot New Restuarant
-            </div>
-          </div>
+      <div class="apiTableLink">
+        <a href="/api/tables" target="_blank">Table API</a>
+      </div>
+      <div class="footerText">
+        <p>	&copy; 2020 Nick's Hot New Restuarant</p>
+      </div>
+      <div class="apiWaitLink">
+        <a href="/api/waitlist" target="_blank">Waitlist API</a>
+      </div>
     </footer>
 
     <!--Jquery CDN-->

@@ -15,7 +15,7 @@
 </head>
 <body>
   <!--Navbar-->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark" >
+    <nav class="navbar navbar-expand-md navbar-dark" >
         <a href="#" class="navbar-brand">Nick's Hot New Restuarant</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
             <span class="navbar-toggler-icon"></span>
@@ -42,12 +42,18 @@
       <a class="btn btn-primary btn-lg" href="/reserve" role="button">Make Reservation</a>
       <a class="btn btn-success btn-lg" href="/tables" role="button">View Tables</a>
     </div>
-  <!--Footer-->
-  <footer>
-      <div class="footerText">
-        <h6>This is the footer</h6>
+    <!--Footer-->
+    <footer class="page-footer  grey darken-4">
+      <div class="apiTableLink">
+        <a href="/api/tables" target="_blank">Table API</a>
       </div>
-  </footer>
+      <div class="footerText">
+        <p>	&copy; 2020 Nick's Hot New Restuarant</p>
+      </div>
+      <div class="apiWaitLink">
+        <a href="/api/waitlist" target="_blank">Waitlist API</a>
+      </div>
+    </footer>
 
     <script>
 
