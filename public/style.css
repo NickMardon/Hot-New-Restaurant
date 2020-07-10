@@ -1,6 +1,6 @@
 /* Home Page */
 
-.jumbotron {
+.indexJumbotron {
     height: 100vh;
     background-image: url(imgs/restaurant-photo.jpeg);
     background-repeat: no-repeat;
@@ -10,10 +10,23 @@
     text-shadow: 1px 1px 2px black;
 }
 
+.btn {
+    text-shadow: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
+
 /* Reservation Page */
 
-form {
-    margin-top: 7%;
+.reserveJumbotron {
+    background-image: url(imgs/dinner-meal-table-wine.jpg);
+    background-repeat: repeat-y;
+    background-position: center;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px black;
+
 }
 
 /* Tables Page */
@@ -37,9 +50,9 @@ form {
 
 .card {
     height: 200px;
-    width: auto;
+    width: 160px;
     padding: 12px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     color: black;
 }
 
@@ -60,12 +73,17 @@ nav {
 }
 
 .nav-link {
-    padding: 2px 20px;
+    margin: 0 16px;
+    padding: 2px 10px;
     font-weight: 500;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 22px;
 }
 
 .navbar-brand {
     margin-left: 20px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 30px;
 }
 
 /* Footer  */
@@ -87,6 +105,7 @@ p {
 
 
 .footerText {
+    font-family: 'Titillium Web', sans-serif;
     text-align: center;
     color: whitesmoke;
 }
