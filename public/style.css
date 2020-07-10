@@ -1,6 +1,7 @@
 /* Home Page */
 
 .jumbotron {
+    height: 100vh;
     background-image: url(imgs/restaurant-photo.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,17 +17,72 @@ form {
 }
 
 /* Tables Page */
+.tableBody {
+    background-image: url(imgs/tables.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 .tablesContainer {
     margin-top: 8%;
+    width: 100%;
+}
+
+.tableTitle {
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px black;
+    margin: 16px 0;
+}
+
+.card {
+    height: 200px;
+    width: auto;
+    padding: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+#reservedTables {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#waitlist {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Navbar */
+nav {
+    background-color: #2C2C2C;
+    color: whitesmoke;
+}
+
+.nav-link {
+    padding: 2px 20px;
+    font-weight: 500;
+}
+
+.navbar-brand {
+    margin-left: 20px;
 }
 
 /* Footer  */
 footer {
-    background-color:#212529;
+    background-color: #2C2C2C;
     position: fixed;
     bottom: 0;
     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8px;
+    color: whitesmoke;
+}
+
+p {
+    margin: 0 !important;
 }
 
 
