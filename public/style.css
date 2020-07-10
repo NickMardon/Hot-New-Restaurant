@@ -1,0 +1,26 @@
+.jumbotron {
+    background-image: url(imgs/restaurant-photo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* Footer  */
+footer {
+    background-color:#212529;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.footerText {
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+
+
