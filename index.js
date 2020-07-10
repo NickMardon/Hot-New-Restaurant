@@ -3,11 +3,6 @@
 var express = require("express");
 var path = require("path");
 
-// Global Variables 
-//==============================================================
-const reservationArr = [];
-const waitingArr = [];
-
 // Sets up the Express App
 // =============================================================
 var app = express();

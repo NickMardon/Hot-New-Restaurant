@@ -1,3 +1,5 @@
+/* Home Page */
+
 .jumbotron {
     background-image: url(imgs/restaurant-photo.jpeg);
     background-repeat: no-repeat;
@@ -5,6 +7,12 @@
     background-position: center;
     color: whitesmoke;
     text-shadow: 1px 1px 2px black;
+}
+
+/* Reservation Page */
+
+form {
+    margin-top: 7%;
 }
 
 /* Footer  */
