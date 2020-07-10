@@ -6,6 +6,15 @@ This project is a simple bootstrap site that allows users to make a reservation 
 
 ## Screenshots
 
+#### Home Page
+<img width="1680" alt="Screen Shot 2020-07-09 at 8 18 32 PM" src="https://user-images.githubusercontent.com/64296192/87113407-0282ec80-c223-11ea-9c4b-8d6d8bbac10d.png">
+
+#### Reservation Page
+<img width="1680" alt="Screen Shot 2020-07-09 at 8 18 55 PM" src="https://user-images.githubusercontent.com/64296192/87113416-06af0a00-c223-11ea-8765-af1d759ead55.png">
+
+#### View Tables Page
+<img width="1680" alt="Screen Shot 2020-07-09 at 8 18 09 PM" src="https://user-images.githubusercontent.com/64296192/87113421-0adb2780-c223-11ea-9252-65a249a4a151.png">
+
 ## Table of Contents
 
 * [Installation](#installation)
