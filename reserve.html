@@ -1,57 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Make Reservations</title>
-    <link rel="stylesheet"
-    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hot New Restuarant</title>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Titillium+Web&display=swap" rel="stylesheet">
+  <!--Bootstrap CSS-->
   <link rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://code.jquery.com/jquery.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="style.css">
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!--Font Awesome-->
+<link rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Custom CSS-->
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark" >
-        <a href="#" class="navbar-brand">Make a Reservation</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarMenu">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a href="/" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-                <a href="/reserve" class="nav-link">Make a Reservation</a>
-            </li>
-            <li class="nav-item">
-                <a href="/tables" class="nav-link">View Tables</a>
-            </li>
-        </ul>
-        </div>
-    </nav>
-    
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-md navbar-dark" >
+    <a href="#" class="navbar-brand">Nick's Hot New Restuarant</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a href="/" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="/reserve" class="nav-link">Make a Reservation</a>
+        </li>
+        <li class="nav-item">
+            <a href="/tables" class="nav-link">View Tables</a>
+        </li>
+    </ul>
+    </div>
+</nav>
+<div class="jumbotron jumbotron-fluid reserveJumbotron">
+  <div class="container">
+    <h1 class="display-4">Make a reservation</h1>
+    <p class="lead">Fill out the following form to make a reservation.</p>
+  </div>
+</div>
+    <!--Form-->
+    <form class="container reserveForm">
+      <div class="form-group">
+        <label for="exampleInputPassword1">Name</label>
+        <input type="text" class="form-control" id="name">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Phone Number</label>
+        <input type="text" class="form-control" id="phone">
+      </div>
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+      <button id="reserveBtn" type="submit" class="btn btn-primary">Make Reservation</button>
+    </form>
+    <!--Footer-->
     <footer class="page-footer  grey darken-4">
-        <div class="container">
-          <div class="row">
-            <div class="col l5 s12">
-              <h5 class="white-text">Hot New Restuarant</h5>
-            </div>
-            <div class="col l5 offset-14 s12">
-              <h6 class="white-text">Built With:</h6>
-              <ul>
-                <li><a class="grey-text text-lighten-3" href="/api/tables" target="_blank">API Table Link</i></a></li>
-                <li><a class="grey-text text-lighten-3" href="/api/waitlist" target="_blank">API Wait Link</a></li>
-            </ul>
-        </div>
-        <div class="footer-copyright">
-            <div class="container">
-            © Copyright 2020 Hot New Restuarant
-            </div>
-          </div>
+      <div class="apiTableLink">
+        <a href="/api/tables" target="_blank">Table API</a>
+      </div>
+      <div class="footerText">
+        <p>	&copy; 2020 Nick's Hot New Restuarant</p>
+      </div>
+      <div class="apiWaitLink">
+        <a href="/api/waitlist" target="_blank">Waitlist API</a>
+      </div>
     </footer>
+
+    <!--Jquery CDN-->
+<script src="https://code.jquery.com/jquery.js"></script>
+<!--Bootstrap Jquery and JS-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<!--Custom JS-->
+<script src="js/formscript.js"></script>
         
 </body>
 </html>

@@ -1,0 +1,128 @@
+/* Home Page */
+
+.indexJumbotron {
+    height: 100vh;
+    background-image: url(imgs/restaurant-photo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px black;
+}
+
+.btn {
+    text-shadow: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
+
+/* Reservation Page */
+
+.reserveJumbotron {
+    background-image: url(imgs/dinner-meal-table-wine.jpg);
+    background-repeat: repeat-y;
+    background-position: center;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+/* Tables Page */
+.tableBody {
+    background-image: url(imgs/tables.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.tablesContainer {
+    margin-top: 8%;
+    width: 100%;
+}
+
+.tableTitle {
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px black;
+    margin: 16px 0;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.card {
+    height: 200px;
+    width: 200px;
+    padding: 16px 4px;
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    background-color: whitesmoke;
+    margin: 6px 10px;
+}
+
+p .card {
+    font-size: 12px;
+}
+
+#reservedTables {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#waitlist {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Navbar */
+nav {
+    background-color: #2C2C2C;
+    color: whitesmoke;
+}
+
+.nav-link {
+    margin: 0 16px;
+    padding: 2px 10px;
+    font-weight: 500;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 22px;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 30px;
+}
+
+/* Footer  */
+footer {
+    background-color: #2C2C2C;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8px;
+    color: whitesmoke;
+}
+
+p {
+    margin: 0 !important;
+}
+
+
+.footerText {
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+}
+
+footer div a {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+

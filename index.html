@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hot New Restuarant</title>
+      <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Titillium+Web&display=swap" rel="stylesheet">
     <!--Bootstrap CSS-->
     <link rel="stylesheet"
     href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -14,8 +16,9 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark" >
-        <a href="#" class="navbar-brand">Hot New Restuarant</a>
+  <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-dark" >
+        <a href="#" class="navbar-brand">Nick's Hot New Restuarant</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -33,32 +36,26 @@
         </ul>
         </div>
     </nav>
-    
-  <footer>
-      <div class="footerText">
-        <h6>This is the footer</h6>
+  <!--Jumbotron-->
+    <div class="jumbotron indexJumbotron">
+      <h1 class="display-4">Nick's Hot New Restuarant</h1>
+      <p class="lead">Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+      <hr class="my-4">
+      <a class="btn btn-warning btn-md" href="/reserve" role="button">Make Reservation</a>
+      <a class="btn btn-warning btn-md" href="/tables" role="button">View Tables</a>
+    </div>
+    <!--Footer-->
+    <footer class="page-footer  grey darken-4">
+      <div class="apiTableLink">
+        <a href="/api/tables" target="_blank">Table API</a>
       </div>
-  </footer>
-    <script>
-
-
-      // $.get("/api/tables/" + input field id, function(data) {
-      //   console.log(data);
-      //   if (data) {
-      //     $("#stats").show();
-      //     $("#name").text(data.name);
-      //     $("#role").text(data.role);
-      //     $("#age").text(data.age);
-      //     $("#force-points").text(data.forcePoints);
-      //   }
-      //   else {
-      //     $("#name").text("The force is not strong with this one. Your character was not found.");
-      //     $("#stats").hide();
-      //   }
-      // });
-   
-
-    </script>
+      <div class="footerText">
+        <p>	&copy; 2020 Nick's Hot New Restuarant</p>
+      </div>
+      <div class="apiWaitLink">
+        <a href="/api/waitlist" target="_blank">Waitlist API</a>
+      </div>
+    </footer>
 <!--Jquery CDN-->
 <script src="https://code.jquery.com/jquery.js"></script>
 <!--Bootstrap Jquery and JS-->
