@@ -15,6 +15,12 @@ form {
     margin-top: 7%;
 }
 
+/* Tables Page */
+
+.tablesContainer {
+    margin-top: 8%;
+}
+
 /* Footer  */
 footer {
     background-color:#212529;

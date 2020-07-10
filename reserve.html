@@ -76,20 +76,7 @@
 <!--Bootstrap Jquery and JS-->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <!--Custom JS-->
-<script>
-$("#reserveBtn").on("click",function(e){
-    e.preventDefault();
-    const resData = {
-        name: $("#name").val(),
-        email: $("#email").val(),
-        phone: $("#phone").val()
-    }
-    $.post("/api/tables",resData).then(result=>{
-       window.location.href = '/tables';
-    })
-})
-
-</script>
+<script src="js/formscript.js"></script>
         
 </body>
 </html>
